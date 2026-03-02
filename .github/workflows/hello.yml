@@ -1,6 +1,6 @@
 name: hello world
 on:
-  pull-request:
+  pull_request:
     branches:
       - master 
 
