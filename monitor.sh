@@ -1,6 +1,6 @@
 #!/bin/bash
-bot_token="8545361110:AAG8n3fzcJjGAL7Rb5c1_nkIYmpdjhHvXW8"
-chat_id="8453802599"
+bot_token=
+chat_id=
 cpu_limit=80
 mem_limit=85
 host_limit=90
