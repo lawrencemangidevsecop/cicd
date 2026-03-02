@@ -1,8 +1,6 @@
 #!/bin/bash
 
 wait_time=15
-server_ip="192.168.0.122"
-
 
 while true;do
     if acpi -a | grep -q "off-line" ; then
