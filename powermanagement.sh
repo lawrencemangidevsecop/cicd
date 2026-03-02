@@ -11,7 +11,7 @@ sleep $wait_time
   if acpi -a | grep -q "off-line"; then 
     wall "power still out . killing processes and sycing disk..."
     wall "pwer lost! gracefully shutting down any running containers...."
-    docker stop $(docker ps -q)
+    docker ps -q | xargs -r docker stop
     wall "container shut down successfully"
     sleep 5
 
